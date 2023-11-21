@@ -7,39 +7,47 @@
   <title>QTrip</title>
   <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- TODO: MODULE_LAYOUT -->
-  <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Additional styles for the navigation -->
+  <style>
+    /* Customize additional styles as needed */
+  </style>
 </head>
 
 <body>
 
-  <!-- TODO: MODULE_LAYOUT -->
-  <!-- 1. Use appropriate css classes on nav element. -->
-  <!-- 2. Add child elements as required. -->
+  <!-- Navigation Bar with Toggler Icon -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">QTrip</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Explorer</a>
+        </li>
+        <!-- Add more navigation items if needed -->
+      </ul>
+    </div>
+  </nav>
 
-   <nav></nav> 
-
-
-  <!-- TODO: MODULE_LAYOUT -->
-  <!-- 1. Use appropriate css classes on the hero image container element. -->
-  <!-- 2. Add child elements as required. -->
-
-   <div class="hero-image d-flex"></div> 
-
-
+  <!-- Your existing content -->
+  <div class="hero-image d-flex"></div>
   <div class="container">
-    <!-- TODO: MODULE_LAYOUT -->
-    <!-- 1. Create the grid like layout as required. -->
+    <!-- Your other content -->
   </div>
-
-  <footer>
-    <div class="container">© QTrip 2020</div>
-  </footer>
-
-  <!-- TODO: MODULE_LAYOUT -->
-  <!-- Add scripts needed for bootstrap to work -->
   
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
