@@ -19,12 +19,13 @@ a {
   color: inherit !important;
   text-decoration: none !important;
 }
+
 footer {
   background: #f1f1f1;
   width: 100%;
   padding: 16px 0px;
   color: #999;
-  vertical-align: bottom;
+  text-align: center;
   margin-top: 40px;
   /* width: 100%; */
   /* height: 2.5rem;   */
@@ -43,9 +44,9 @@ footer {
   /* flex-wrap: wrap; */
 }
 
-
-/*---------------------- Layout page CSS------------------------------------ */
-
+/* ================================== */
+/* Layout page CSS */
+/* ================================== */
 
 .tile {
   /* TODO: MODULE_CARDS */
@@ -65,7 +66,7 @@ footer {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
   width: 100%;
-  height: 400px;
+  height: 100%;
   border-radius: 6px;
 
 }
@@ -87,7 +88,7 @@ footer {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/hero.jpg");
+    url("../assets/hero.jpg");
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
